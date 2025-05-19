@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>FinBildung</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="Bildungsplattform für Fintech und Machine Learning"
+            name="keywords"
+        />
+        <meta
+            content="Lernen Sie Fintech und Machine Learning auf einer spezialisierten Bildungsplattform mit praxisnahen Kursen und Expertenwissen."
+            name="description"
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.png" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <div class="container-fluid">
+            <div class="row border-top px-xl-5">
+                <div class="col-lg-4 d-none d-lg-block">
+                    <a href="index.html" class="text-decoration-none">
+                        <h1 style="margin-top: 10px !important" class="m-0">
+                            <span class="text-primary">F</span>inBildung
+                        </h1>
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <nav
+                        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0"
+                    >
+                        <a
+                            href="index.html"
+                            class="text-decoration-none d-block d-lg-none"
+                        >
+                            <h1 class="m-0">
+                                <span class="text-primary">F</span>inBildung
+                            </h1>
+                        </a>
+                        <button
+                            type="button"
+                            class="navbar-toggler"
+                            data-toggle="collapse"
+                            data-target="#navbarCollapse"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse justify-content-between"
+                            id="navbarCollapse"
+                        >
+                            <div class="navbar-nav py-0">
+                                <a
+                                    href="index.html"
+                                    class="nav-item nav-link active"
+                                    >Start</a
+                                >
+                                <a
+                                    href="index.html#about"
+                                    class="nav-item nav-link"
+                                    >Über Uns</a
+                                >
+                                <a
+                                    href="index.html#news"
+                                    class="nav-item nav-link"
+                                    >Aktuelles</a
+                                >
+                                <a
+                                    href="index.html#team"
+                                    class="nav-item nav-link"
+                                    >Team</a
+                                >
+                                <a
+                                    href="index.html#blog"
+                                    class="nav-item nav-link"
+                                    >Blog</a
+                                >
+                                <a
+                                    href="index.html#contact"
+                                    class="nav-item nav-link"
+                                    >Kontakt</a
+                                >
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-ride="carousel"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#header-carousel"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-target="#header-carousel" data-slide-to="1"></li>
+                    <li data-target="#header-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-1.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Starte Deine Karriere im Fintech und Machine
+                                    Learning
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Lerne digitale Finanztechnologien und KI
+                                    verstehen
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-2.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Praxisnahe Weiterbildung im Bereich
+                                    Finanztechnologie
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Moderne Lernplattform für KI und Finanzen
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="min-height: 300px">
+                        <img
+                            class="position-relative w-100"
+                            src="img/carousel-3.jpg"
+                            style="min-height: 300px; object-fit: cover"
+                        />
+                        <div
+                            class="carousel-caption d-flex align-items-center justify-content-center"
+                        >
+                            <div
+                                class="p-5"
+                                style="width: 100%; max-width: 900px"
+                            >
+                                <h5 class="text-white text-uppercase mb-md-3">
+                                    Entwickle Deine Fähigkeiten in KI &
+                                    Finanzanalyse
+                                </h5>
+                                <h1 class="display-3 text-white mb-md-4">
+                                    Werde Experte für datengetriebene
+                                    Finanzentscheidungen
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src="img/about.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="text-left mb-4">
+                            <h5
+                                class="text-primary text-uppercase mb-3"
+                                style="letter-spacing: 5px"
+                            >
+                                Über Uns
+                            </h5>
+                            <h1>
+                                Deine Plattform für Fintech- und Machine
+                                Learning-Wissen
+                            </h1>
+                        </div>
+                        <p>
+                            FinBildung ist eine spezialisierte
+                            Bildungsplattform, die Dir fundiertes Wissen über
+                            Fintech und Künstliche Intelligenz vermittelt.
+                            Unsere Kurse decken Themen wie automatisierte
+                            Finanzanalyse, Blockchain-Grundlagen,
+                            Datenmodellierung und KI-gestützte Finanzstrategien
+                            ab – praxisnah, verständlich und zukunftsorientiert.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="row align-items-center"
+                    style="flex-direction: row-reverse; margin-top: 30px"
+                >
+                    <div class="col-lg-5">
+                        <img
+                            class="img-fluid rounded mb-4 mb-lg-0"
+                            src="img/about-1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="text-left mb-4">
+                            <h5
+                                class="text-primary text-uppercase mb-3"
+                                style="letter-spacing: 5px"
+                            >
+                                Unser Ansatz
+                            </h5>
+                            <h1>
+                                Lernen mit System – Von den Grundlagen bis zur
+                                Anwendung
+                            </h1>
+                        </div>
+                        <p>
+                            Wir setzen auf praxisorientiertes Lernen und moderne
+                            Didaktik. Ob Du Dich für Finanzalgorithmen,
+                            Robo-Advisors, neuronale Netze oder datengetriebene
+                            Entscheidungssysteme interessierst – bei FinBildung
+                            findest Du strukturierte Lernpfade, entwickelt von
+                            erfahrenen Expertinnen und Experten wie Thomas
+                            Berger, Anna Schäfer und Julian Meier.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Courses Start -->
+        <div id="news" class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Nachrichten
+                    </h5>
+                    <h1>Neueste Einblicke in FinTech & Machine Learning</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-2.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        3013 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        24.01.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Aktuelle Trends in FinTech-Ausbildung</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.9 <small>(1250)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-3.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        201 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        24.02.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Plattformen für maschinelles Lernen im
+                                    Finanzbereich</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            3.9 <small>(50)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-4.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        30131 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        01.02.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Erfolgreiche Bildungswege im
+                                    FinTech-Sektor</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.5 <small>(11250)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-5.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        13 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        04.04.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >Tägliche Analyse der FinTech-Märkte</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            5 <small>(1)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-6.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        117 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        11.02.2024
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >FinTech-Wissen: Analysen & Kommentare</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.1 <small>(23)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="rounded overflow-hidden mb-2">
+                            <img
+                                class="img-fluid"
+                                src="img/course-1.jpg"
+                                alt=""
+                            />
+                            <div class="bg-secondary p-4">
+                                <div
+                                    class="d-flex justify-content-between mb-3"
+                                >
+                                    <small class="m-0">
+                                        <i
+                                            class="fa fa-users text-primary mr-2"
+                                        ></i>
+                                        1213 Aufrufe
+                                    </small>
+                                    <small class="m-0">
+                                        <i
+                                            class="far fa-clock text-primary mr-2"
+                                        ></i>
+                                        21.01.2025
+                                    </small>
+                                </div>
+                                <a class="h5"
+                                    >FinTech & KI: Bildung im digitalen
+                                    Wandel</a
+                                >
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="m-0">
+                                            <i
+                                                class="fa fa-star text-primary mr-2"
+                                            ></i>
+                                            4.2 <small>(30)</small>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Courses End -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Unser Team
+                    </h5>
+                    <h1>Lernen Sie unsere besten Fachkräfte kennen</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Thomas Berger</h5>
+                                <p class="m-0">Fintech-Ausbilder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Martin Scholz</h5>
+                                <p class="m-0">Machine-Learning-Spezialist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Daniel Klein</h5>
+                                <p class="m-0">Datenanalyse-Dozent</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-4">
+                        <div class="team-item rounded overflow-hidden mb-2">
+                            <div class="team-img position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-secondary p-4">
+                                <h5>Stefan Weber</h5>
+                                <p class="m-0">KI-Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Erfahrungsberichte
+                    </h5>
+                    <h1>Was unsere Lernenden sagen</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    Die Plattform ist hervorragend strukturiert
+                                    und bietet eine großartige Einführung in
+                                    Fintech-Themen und maschinelles Lernen.
+                                    Besonders schätze ich die praxisnahen
+                                    Beispiele und die verständlichen Erklärungen
+                                    der komplexen Konzepte.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-1.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Julia Braun</h5>
+                            </div>
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    Ich nutze diese Bildungsplattform täglich,
+                                    um mein Wissen über KI und
+                                    Finanztechnologien zu erweitern. Die Inhalte
+                                    sind aktuell, interaktiv und auf den Punkt
+                                    gebracht – ideal für alle Lernstufen.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-2.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Anna Fischer</h5>
+                            </div>
+                            <div class="text-center">
+                                <i
+                                    class="fa fa-3x fa-quote-left text-primary mb-4"
+                                ></i>
+                                <h4 class="font-weight-normal mb-4">
+                                    Exzellente Lernplattform für alle, die in
+                                    die Welt von Fintech und maschinellem Lernen
+                                    einsteigen möchten. Die Kurse sind klar
+                                    gegliedert, fachlich fundiert und von echten
+                                    Expertinnen und Experten erstellt.
+                                </h4>
+                                <img
+                                    class="img-fluid mx-auto mb-3"
+                                    src="img/testimonial-3.jpg"
+                                    alt=""
+                                />
+                                <h5 class="m-0">Lukas Neumann</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Blog Start -->
+        <div id="blog" class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-3"
+                        style="letter-spacing: 5px"
+                    >
+                        Unser Blog
+                    </h5>
+                    <h1>Neues aus der Welt von FinTech & Machine Learning</h1>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-1.jpg"
+                                alt=""
+                            />
+                            <a class="blog-overlay text-decoration-none">
+                                <h5 class="text-white mb-3">
+                                    Strategien zur Analyse von Finanzdaten mit
+                                    KI
+                                </h5>
+                                <p class="text-primary m-0">Jan 01, 2020</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-2.jpg"
+                                alt=""
+                            />
+                            <a
+                                class="blog-overlay text-decoration-none"
+                                href=""
+                            >
+                                <h5 class="text-white mb-3">
+                                    Neue Lernmethoden in FinTech-Plattformen
+                                </h5>
+                                <p class="text-primary m-0">Jul 01, 2025</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="blog-item position-relative overflow-hidden rounded mb-2"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/blog-3.jpg"
+                                alt=""
+                            />
+                            <a
+                                class="blog-overlay text-decoration-none"
+                                href=""
+                            >
+                                <h5 class="text-white mb-3">
+                                    Erfolgreiche Karrierepfade in der
+                                    KI-basierten Finanzbildung
+                                </h5>
+                                <p class="text-primary m-0">Feb 01, 2025</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Registration Start -->
+        <div
+            id="contact"
+            style="margin-bottom: 0px"
+            class="container-fluid bg-registration py-5"
+            style="margin: 90px 0"
+        >
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d309.75476662399524!2d11.55524727839266!3d48.13834240962309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f8ccbd5683%3A0x114c2e68984d287d!2sEvolanguage%20center%20Munich!5e0!3m2!1suk!2sua!4v1747654321715!5m2!1suk!2sua"
+                            width="100%"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card border-0">
+                            <div class="card-header bg-light text-center p-4">
+                                <p>Tragen Sie sich ein und</p>
+                                <h1 class="m-0">
+                                    Erhalten Sie kostenlose Updates per E-Mail!
+                                </h1>
+                            </div>
+                            <div
+                                class="card-body rounded-bottom bg-primary p-5"
+                            >
+                                <form action="thanks.html" method="get">
+                                    <div class="form-group">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Ihr Name"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Ihre E-Mail"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <input
+                                            id="text"
+                                            type="text"
+                                            class="form-control border-0 p-4"
+                                            placeholder="Ihr Thema"
+                                            required="required"
+                                        />
+                                    </div>
+                                    <div>
+                                        <button
+                                            id="submit"
+                                            class="btn btn-dark btn-block border-0 py-3"
+                                            type="submit"
+                                        >
+                                            ABSENDEN
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Registration End -->
+
+        <!-- Footer Start -->
+        <div
+            style="position: absolute"
+            class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5"
+            style="margin-top: 0px"
+        >
+            <div class="row pt-5">
+                <div class="col-lg-7 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <h5
+                                class="text-primary text-uppercase mb-4"
+                                style="letter-spacing: 5px"
+                            >
+                                Kontakt
+                            </h5>
+                            <p>
+                                <i class="fa fa-map-marker-alt mr-2"></i
+                                >Paul-Heyse-Straße 6, 80336 München
+                            </p>
+                            <p>
+                                <i class="fa fa-phone-alt mr-2"></i
+                                >+498933989305
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope mr-2"></i
+                                >fin_bildung@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h5
+                                class="text-primary text-uppercase mb-4"
+                                style="letter-spacing: 5px"
+                            >
+                                Navigation
+                            </h5>
+                            <div
+                                class="d-flex flex-column justify-content-start"
+                            >
+                                <a class="text-white mb-2" href="index.html"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Startseite</a
+                                >
+                                <a class="text-white mb-2" href="#about"
+                                    ><i class="fa fa-angle-right mr-2"></i>Über
+                                    uns</a
+                                >
+                                <a class="text-white mb-2" href="#news"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Neuigkeiten</a
+                                >
+                                <a class="text-white mb-2" href="#team"
+                                    ><i class="fa fa-angle-right mr-2"></i
+                                    >Team</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 mb-5">
+                    <h5
+                        class="text-primary text-uppercase mb-4"
+                        style="letter-spacing: 5px"
+                    >
+                        Nützliche Links
+                    </h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white mb-2" href="privacy-policy.html"
+                            ><i class="fa fa-angle-right mr-2"></i
+                            >Datenschutz</a
+                        >
+                        <a class="text-white mb-2" href="cookie-policy.html"
+                            ><i class="fa fa-angle-right mr-2"></i>Cookies</a
+                        >
+                        <a class="text-white mb-2" href="terms-of-use.html"
+                            ><i class="fa fa-angle-right mr-2"></i
+                            >Nutzungsbedingungen</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <i class="bx bx-cookie"></i>
+            <h2 style="text-align: center">Cookie-Zustimmung</h2>
+
+            <div class="data">
+                <p>
+                    Diese Bildungsplattform für FinTech und maschinelles Lernen
+                    verwendet Cookies, um Ihnen ein besseres und gezielteres
+                    Lernerlebnis zu bieten.
+                    <a href="cookie-policy.html">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="fa fa-angle-double-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
